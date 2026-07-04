@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExamForge Attendance Marker</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>📋 ExamForge Attendance Marker</h1>
+
+    <p class="subtitle">
+        Paste attendance names, select the course and week, then process automatically.
+    </p>
+
+    <div class="card">
+
+        <div class="input-group">
+
+            <label>Course</label>
+
+            <select id="course"></select>
+
+        </div>
+
+
+
+        <div class="row">
+
+            <div class="input-group">
+
+                <label>Week</label>
+
+                <select id="week">
+
+                </select>
+
+            </div>
+
+
+
+            <div class="input-group">
+
+                <label>Period</label>
+
+                <select id="period">
+
+                    <option value="A">A</option>
+
+                    <option value="B">B</option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="input-group">
+
+            <label>Paste Attendance List</label>
+
+            <textarea
+                id="attendanceInput"
+                placeholder="Paste one student name per line..."></textarea>
+
+        </div>
+
+
+
+        <button id="processBtn">
+
+            Process Attendance
+
+        </button>
+
+    </div>
+
+
+
+    <div class="card">
+
+        <h2>Processing Result</h2>
+
+        <div id="result">
+
+            Waiting for attendance...
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="sheets.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

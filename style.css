@@ -1,0 +1,247 @@
+/* ==========================
+   EXAMFORGE ATTENDANCE TOOL
+   ========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#eef2f7;
+
+    color:#222;
+
+    display:flex;
+
+    justify-content:center;
+
+    padding:40px 15px;
+
+}
+
+
+/* Main Container */
+
+.container{
+
+    width:100%;
+
+    max-width:850px;
+
+}
+
+
+/* Heading */
+
+h1{
+
+    text-align:center;
+
+    color:#b32025;
+
+    margin-bottom:8px;
+
+    font-size:32px;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-bottom:30px;
+
+}
+
+
+/* Card */
+
+.card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    margin-bottom:25px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+
+/* Labels */
+
+label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+    color:#444;
+
+}
+
+
+/* Inputs */
+
+.input-group{
+
+    margin-bottom:20px;
+
+}
+
+select,
+textarea{
+
+    width:100%;
+
+    border:1px solid #ccc;
+
+    border-radius:10px;
+
+    padding:12px;
+
+    font-size:15px;
+
+    font-family:'Poppins',sans-serif;
+
+    outline:none;
+
+    transition:.25s;
+
+}
+
+select:focus,
+textarea:focus{
+
+    border-color:#b32025;
+
+    box-shadow:0 0 0 3px rgba(179,32,37,.15);
+
+}
+
+
+/* Week + Period */
+
+.row{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.row .input-group{
+
+    flex:1;
+
+}
+
+
+/* Text Area */
+
+textarea{
+
+    height:260px;
+
+    resize:vertical;
+
+    line-height:1.6;
+
+}
+
+
+/* Button */
+
+button{
+
+    width:100%;
+
+    padding:15px;
+
+    background:#b32025;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+button:hover{
+
+    background:#8f171b;
+
+}
+
+
+/* Result */
+
+h2{
+
+    margin-bottom:15px;
+
+}
+
+#result{
+
+    background:#f5f5f5;
+
+    border-radius:10px;
+
+    min-height:130px;
+
+    padding:15px;
+
+    line-height:1.8;
+
+    white-space:pre-wrap;
+
+    border-left:5px solid #b32025;
+
+}
+
+
+/* Mobile */
+
+@media(max-width:700px){
+
+    .row{
+
+        flex-direction:column;
+
+    }
+
+    h1{
+
+        font-size:26px;
+
+    }
+
+    .card{
+
+        padding:18px;
+
+    }
+
+}
