@@ -3,7 +3,7 @@
 // sheets.js
 // ============================================
 
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzRHx-bdQ4vAOJ8gzYrN559BwCLiTX_UnXz9GI8-6m-EogxMdTeKnFRoW21at_48HZO/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxYXa1iBZv4BXrbF1FYcEnpxGHwEf1b4qkhybz6n4roxUjCnueh-jo8_X3th-dWUTK-CQ/exec";
 // ============================================
 // Send Attendance to Google Sheets
 // ============================================
